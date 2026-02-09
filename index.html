@@ -2001,7 +2001,7 @@
 
     const domain = "nulanesystems.us.auth0.com";
     const clientId = "WkYT29HkNJo5rjDMPGTxAdb04QdKQsPc";
-    const redirectUri = "https://nulanesystems.com/portal";
+    const redirectUri = `${window.location.origin}${window.location.pathname}`;
     const audience = "https://api.nulanesystems.com";
     const apiBase = resolveApiBase();
     window.__DOCUDENT_API_BASE_RESOLVED = apiBase;
